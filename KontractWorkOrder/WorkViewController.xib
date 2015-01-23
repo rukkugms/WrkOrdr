@@ -18,7 +18,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
                     <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <items>
-                        <navigationItem title="Equipments" id="xQ6-24-Yiw">
+                        <navigationItem title="Work Entry" id="xQ6-24-Yiw">
                             <barButtonItem key="rightBarButtonItem" id="yOH-1l-uUJ">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uAR-yB-8Jf">
                                     <rect key="frame" x="958" y="-3" width="50" height="50"/>

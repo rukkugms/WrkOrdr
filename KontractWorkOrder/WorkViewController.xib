@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WorkViewController">
             <connections>
+                <outlet property="titleview" destination="MNy-rW-2vF" id="Quk-cw-yT1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="worktable" destination="MHg-cP-szU" id="pld-aN-HDO"/>
             </connections>
@@ -29,34 +30,40 @@
                                     <state key="normal" image="appbar.close.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="clsebtn:" destination="-1" eventType="touchUpInside" id="6FA-sB-gEG"/>
+                                    </connections>
                                 </button>
                             </barButtonItem>
                         </navigationItem>
                     </items>
                 </navigationBar>
                 <view contentMode="scaleToFill" id="MNy-rW-2vF" userLabel="Title View">
-                    <rect key="frame" x="8" y="65" width="1008" height="43"/>
+                    <rect key="frame" x="68" y="66" width="889" height="43"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WorkOrder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="juI-9A-pcg">
-                            <rect key="frame" x="114" y="11" width="102" height="21"/>
+                            <rect key="frame" x="92" y="11" width="102" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HBK-Td-6NB">
-                            <rect key="frame" x="22" y="-3" width="50" height="50"/>
+                            <rect key="frame" x="0.0" y="-3" width="50" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="Button" image="appbar.addblack.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="Addbtn:" destination="-1" eventType="touchUpInside" id="Wdt-WP-08c"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MHg-cP-szU">
-                    <rect key="frame" x="8" y="108" width="1008" height="625"/>
+                    <rect key="frame" x="68" y="107" width="889" height="625"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>

@@ -10,5 +10,8 @@
 
 @interface WorkViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *worktable;
+@property (strong, nonatomic) IBOutlet UIView *titleview;
+- (IBAction)clsebtn:(id)sender;
+- (IBAction)Addbtn:(id)sender;
 
 @end

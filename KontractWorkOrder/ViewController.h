@@ -8,13 +8,22 @@
 
 #import <UIKit/UIKit.h>
 #import "HomeViewController.h"
+#include <ifaddrs.h>
+#include <arpa/inet.h>
 
 @interface ViewController : UIViewController
 {
     BOOL recordResults;
+    NSString*Naddress;
+    NSString*logintime;
+    NSString*devicename;
+    NSString*devicenumber;
+   
 }
 @property(strong,nonatomic)HomeViewController *hmeVCrl;
 
+
+@property(strong,nonatomic)NSString*logindevice;
 
 /* xmlparser*/
 @property(strong,nonatomic)NSXMLParser *xmlParser;

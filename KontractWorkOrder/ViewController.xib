@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="loginbutton" destination="cLb-cI-dTN" id="6KN-HG-NXq"/>
                 <outlet property="passwordtxtfld" destination="Rs5-jf-FVZ" id="TKY-v8-rur"/>
+                <outlet property="scroll" destination="p2P-BA-mV0" id="LBd-th-KXd"/>
                 <outlet property="usernametxtfld" destination="O8S-Cn-QcT" id="pqy-k9-dF8"/>
                 <outlet property="view" destination="PSv-Ez-QF1" id="ahU-Ke-gsv"/>
             </connections>
@@ -46,6 +47,9 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="eB1-zE-wRL"/>
+                            </connections>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cLb-cI-dTN">
                             <rect key="frame" x="448" y="465" width="145" height="31"/>

@@ -35,6 +35,7 @@
 @property(strong,nonatomic)IBOutlet UITextField *usernametxtfld;
 @property(strong,nonatomic)IBOutlet UITextField *passwordtxtfld;
 @property(strong,nonatomic)IBOutlet UIButton *loginbutton;
+@property(strong,nonatomic)IBOutlet UIScrollView *scroll;
 
 - (IBAction)loginbtn:(id)sender;
 

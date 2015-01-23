@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _scroll.frame=CGRectMake(0,0,1024, 724);
+    _scroll.contentSize=CGSizeMake(1024, 800);
     [[UIApplication sharedApplication]setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
     [self prefersStatusBarHidden];
     [self setNeedsStatusBarAppearanceUpdate];
@@ -43,6 +45,9 @@
     [super viewWillAppear:animated];
     _usernametxtfld.text=@"";
     _passwordtxtfld.text=@"";
+    _loginbutton.enabled=YES;
+    
+
     
 }
 
@@ -66,6 +71,8 @@
     }
     else{
         [self resignFirstResponder];
+        [_usernametxtfld resignFirstResponder];
+        [_passwordtxtfld resignFirstResponder];
         _loginbutton.enabled=NO;
         [self Loginselect];
 
@@ -442,6 +449,26 @@
     
 }
 
+-(BOOL) textFieldShouldReturn: (UITextField *) textField
+{
+    [_passwordtxtfld resignFirstResponder];
+    
+    return YES;
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    if ([alertView.message isEqualToString:@"Invalid Username or Password"]) {
+        _usernametxtfld.text=@"";
+        _passwordtxtfld.text=@"";
+        
+    }
+    if ([alertView.message isEqualToString:@"User is not activated please contact admin"]) {
+        _usernametxtfld.text=@"";
+        _passwordtxtfld.text=@"";
+        
+    }
+}
 
 
 

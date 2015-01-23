@@ -19,6 +19,7 @@
 		D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */; };
 		D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */; };
 		D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */; };
+		D42C9FA11A7224D8003BF9F3 /* appbar.addblack.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA01A7224D8003BF9F3 /* appbar.addblack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkViewController.xib; sourceTree = "<group>"; };
 		D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.close.png; sourceTree = "<group>"; };
+		D42C9FA01A7224D8003BF9F3 /* appbar.addblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.addblack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		D42C9F991A721E3D003BF9F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D42C9FA01A7224D8003BF9F3 /* appbar.addblack.png */,
 				D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */,
 			);
 			name = Images;
@@ -227,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42C9FA11A7224D8003BF9F3 /* appbar.addblack.png in Resources */,
 				D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */,
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,

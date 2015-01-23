@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface WorkViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *worktable;
 
 @end

@@ -41,19 +41,12 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
+    _usernametxtfld.text=@"";
+    _passwordtxtfld.text=@"";
     
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 #pragma mark- IBAction
 - (IBAction)loginbtn:(id)sender {
     if(([_usernametxtfld.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length==0)||([_passwordtxtfld.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]].length==0)){
@@ -79,6 +72,9 @@
         
 }
 }
+
+#pragma mark-IP Getting Function
+
 -(void)FindExternalIP
 {
     NSURL *URL = [NSURL URLWithString:@"http://ip-api.com/json"];
@@ -131,6 +127,7 @@
     
     
 }
+
 - (NSString *)getIPAddress {
     
     struct ifaddrs *interfaces = NULL;

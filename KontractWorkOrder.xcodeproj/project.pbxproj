@@ -18,14 +18,14 @@
 		64C7D73C1A722D8900FC602F /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7321A722D8900FC602F /* AFXMLRequestOperation.m */; };
 		64C7D73D1A722D8900FC602F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7341A722D8900FC602F /* UIImageView+AFNetworking.m */; };
 		64C7D73F1A72451A00FC602F /* clarity-shutdown-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C7D73E1A72451A00FC602F /* clarity-shutdown-icon.png */; };
+		64C7D7651A72589C00FC602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7601A72589C00FC602F /* ViewController.m */; };
+		64C7D7661A72589C00FC602F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C7D7611A72589C00FC602F /* ViewController.xib */; };
+		64C7D7671A72589C00FC602F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7631A72589C00FC602F /* HomeViewController.m */; };
+		64C7D7681A72589C00FC602F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C7D7641A72589C00FC602F /* HomeViewController.xib */; };
 		D42C9F651A7214B2003BF9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F641A7214B2003BF9F3 /* main.m */; };
 		D42C9F681A7214B2003BF9F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F671A7214B2003BF9F3 /* AppDelegate.m */; };
 		D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */; };
 		D42C9F7F1A7214B2003BF9F3 /* KontractWorkOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F7E1A7214B2003BF9F3 /* KontractWorkOrderTests.m */; };
-		D42C9F8B1A721698003BF9F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F891A721698003BF9F3 /* ViewController.m */; };
-		D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F8A1A721698003BF9F3 /* ViewController.xib */; };
-		D42C9F901A721A1C003BF9F3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */; };
-		D42C9F911A721A1C003BF9F3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */; };
 		D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F931A721A3B003BF9F3 /* WorkViewController.m */; };
 		D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */; };
 		D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */; };
@@ -67,6 +67,12 @@
 		64C7D7331A722D8900FC602F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		64C7D7341A722D8900FC602F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		64C7D73E1A72451A00FC602F /* clarity-shutdown-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clarity-shutdown-icon.png"; sourceTree = "<group>"; };
+		64C7D75F1A72589C00FC602F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64C7D7601A72589C00FC602F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64C7D7611A72589C00FC602F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		64C7D7621A72589C00FC602F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		64C7D7631A72589C00FC602F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		64C7D7641A72589C00FC602F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		D42C9F5F1A7214B2003BF9F3 /* KontractWorkOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontractWorkOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42C9F631A7214B2003BF9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42C9F641A7214B2003BF9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,12 +82,6 @@
 		D42C9F781A7214B2003BF9F3 /* KontractWorkOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KontractWorkOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42C9F7D1A7214B2003BF9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42C9F7E1A7214B2003BF9F3 /* KontractWorkOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KontractWorkOrderTests.m; sourceTree = "<group>"; };
-		D42C9F881A721698003BF9F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D42C9F891A721698003BF9F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D42C9F8A1A721698003BF9F3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		D42C9F8D1A721A1C003BF9F3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		D42C9F921A721A3B003BF9F3 /* WorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
 		D42C9F931A721A3B003BF9F3 /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
 		D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkViewController.xib; sourceTree = "<group>"; };
@@ -164,12 +164,12 @@
 				D42C9F991A721E3D003BF9F3 /* Images */,
 				D42C9F661A7214B2003BF9F3 /* AppDelegate.h */,
 				D42C9F671A7214B2003BF9F3 /* AppDelegate.m */,
-				D42C9F881A721698003BF9F3 /* ViewController.h */,
-				D42C9F891A721698003BF9F3 /* ViewController.m */,
-				D42C9F8A1A721698003BF9F3 /* ViewController.xib */,
-				D42C9F8D1A721A1C003BF9F3 /* HomeViewController.h */,
-				D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */,
-				D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */,
+				64C7D75F1A72589C00FC602F /* ViewController.h */,
+				64C7D7601A72589C00FC602F /* ViewController.m */,
+				64C7D7611A72589C00FC602F /* ViewController.xib */,
+				64C7D7621A72589C00FC602F /* HomeViewController.h */,
+				64C7D7631A72589C00FC602F /* HomeViewController.m */,
+				64C7D7641A72589C00FC602F /* HomeViewController.xib */,
 				D42C9F921A721A3B003BF9F3 /* WorkViewController.h */,
 				D42C9F931A721A3B003BF9F3 /* WorkViewController.m */,
 				D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */,
@@ -299,15 +299,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */,
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
 				64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */,
+				64C7D7661A72589C00FC602F /* ViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
 				D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */,
 				64C7D73F1A72451A00FC602F /* clarity-shutdown-icon.png in Resources */,
 				D42C9FA81A722C90003BF9F3 /* addblack.png in Resources */,
 				D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */,
-				D42C9F911A721A1C003BF9F3 /* HomeViewController.xib in Resources */,
+				64C7D7681A72589C00FC602F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,17 +325,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C7D7651A72589C00FC602F /* ViewController.m in Sources */,
 				64C7D73B1A722D8900FC602F /* AFURLConnectionOperation.m in Sources */,
 				64C7D73D1A722D8900FC602F /* UIImageView+AFNetworking.m in Sources */,
-				D42C9F8B1A721698003BF9F3 /* ViewController.m in Sources */,
 				D42C9F681A7214B2003BF9F3 /* AppDelegate.m in Sources */,
 				64C7D73A1A722D8900FC602F /* AFPropertyListRequestOperation.m in Sources */,
 				D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */,
 				D42C9F651A7214B2003BF9F3 /* main.m in Sources */,
 				64C7D73C1A722D8900FC602F /* AFXMLRequestOperation.m in Sources */,
+				64C7D7671A72589C00FC602F /* HomeViewController.m in Sources */,
 				64C7D7391A722D8900FC602F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				64C7D7361A722D8900FC602F /* AFHTTPRequestOperation.m in Sources */,
-				D42C9F901A721A1C003BF9F3 /* HomeViewController.m in Sources */,
 				64C7D7371A722D8900FC602F /* AFImageRequestOperation.m in Sources */,
 				64C7D7351A722D8900FC602F /* AFHTTPClient.m in Sources */,
 				64C7D7381A722D8900FC602F /* AFJSONRequestOperation.m in Sources */,

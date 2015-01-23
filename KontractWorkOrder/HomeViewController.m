@@ -45,8 +45,7 @@
     self.workVCtrl=[[WorkViewController alloc]initWithNibName:@"WorkViewController" bundle:nil];
     
     
-    [self.navigationController pushViewController:_workVCtrl animated:YES];
-    
+    [self presentViewController:_workVCtrl animated:YES completion:nil];
 }
 #pragma mark-Alertview
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddworkViewController.h"
 
 @interface WorkViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *worktable;
 @property (strong, nonatomic) IBOutlet UIView *titleview;
+@property (strong, nonatomic)AddworkViewController*AddWCtrl;
+
 - (IBAction)clsebtn:(id)sender;
 - (IBAction)Addbtn:(id)sender;
 

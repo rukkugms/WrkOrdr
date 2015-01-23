@@ -91,5 +91,11 @@
 }
 
 - (IBAction)Addbtn:(id)sender {
+    self.AddWCtrl=[[AddworkViewController alloc]initWithNibName:@"AddworkViewController" bundle:nil];
+    
+    //_AddWCtrl.modalPresentationStyle=UIModalPresentationPageSheet;
+   
+    [self.navigationController pushViewController:_AddWCtrl animated:YES];
+
 }
 @end

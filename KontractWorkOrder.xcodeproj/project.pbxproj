@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		D42C9F651A7214B2003BF9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F641A7214B2003BF9F3 /* main.m */; };
 		D42C9F681A7214B2003BF9F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F671A7214B2003BF9F3 /* AppDelegate.m */; };
-		D42C9F6B1A7214B2003BF9F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F6A1A7214B2003BF9F3 /* ViewController.m */; };
-		D42C9F6E1A7214B2003BF9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F6C1A7214B2003BF9F3 /* Main.storyboard */; };
 		D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */; };
-		D42C9F731A7214B2003BF9F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F711A7214B2003BF9F3 /* LaunchScreen.xib */; };
 		D42C9F7F1A7214B2003BF9F3 /* KontractWorkOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F7E1A7214B2003BF9F3 /* KontractWorkOrderTests.m */; };
+		D42C9F8B1A721698003BF9F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F891A721698003BF9F3 /* ViewController.m */; };
+		D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F8A1A721698003BF9F3 /* ViewController.xib */; };
+		D42C9F901A721A1C003BF9F3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */; };
+		D42C9F911A721A1C003BF9F3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */; };
+		D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F931A721A3B003BF9F3 /* WorkViewController.m */; };
+		D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */; };
+		D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,20 @@
 		D42C9F641A7214B2003BF9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D42C9F661A7214B2003BF9F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D42C9F671A7214B2003BF9F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D42C9F691A7214B2003BF9F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D42C9F6A1A7214B2003BF9F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D42C9F6D1A7214B2003BF9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D42C9F721A7214B2003BF9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D42C9F781A7214B2003BF9F3 /* KontractWorkOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KontractWorkOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42C9F7D1A7214B2003BF9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42C9F7E1A7214B2003BF9F3 /* KontractWorkOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KontractWorkOrderTests.m; sourceTree = "<group>"; };
+		D42C9F881A721698003BF9F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D42C9F891A721698003BF9F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D42C9F8A1A721698003BF9F3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		D42C9F8D1A721A1C003BF9F3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D42C9F921A721A3B003BF9F3 /* WorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
+		D42C9F931A721A3B003BF9F3 /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
+		D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkViewController.xib; sourceTree = "<group>"; };
+		D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		D42C9F561A7214B2003BF9F3 = {
 			isa = PBXGroup;
 			children = (
+				D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */,
 				D42C9F611A7214B2003BF9F3 /* KontractWorkOrder */,
 				D42C9F7B1A7214B2003BF9F3 /* KontractWorkOrderTests */,
 				D42C9F601A7214B2003BF9F3 /* Products */,
@@ -83,11 +95,16 @@
 			children = (
 				D42C9F661A7214B2003BF9F3 /* AppDelegate.h */,
 				D42C9F671A7214B2003BF9F3 /* AppDelegate.m */,
-				D42C9F691A7214B2003BF9F3 /* ViewController.h */,
-				D42C9F6A1A7214B2003BF9F3 /* ViewController.m */,
-				D42C9F6C1A7214B2003BF9F3 /* Main.storyboard */,
+				D42C9F881A721698003BF9F3 /* ViewController.h */,
+				D42C9F891A721698003BF9F3 /* ViewController.m */,
+				D42C9F8A1A721698003BF9F3 /* ViewController.xib */,
+				D42C9F8D1A721A1C003BF9F3 /* HomeViewController.h */,
+				D42C9F8E1A721A1C003BF9F3 /* HomeViewController.m */,
+				D42C9F8F1A721A1C003BF9F3 /* HomeViewController.xib */,
+				D42C9F921A721A3B003BF9F3 /* WorkViewController.h */,
+				D42C9F931A721A3B003BF9F3 /* WorkViewController.m */,
+				D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */,
 				D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */,
-				D42C9F711A7214B2003BF9F3 /* LaunchScreen.xib */,
 				D42C9F621A7214B2003BF9F3 /* Supporting Files */,
 			);
 			path = KontractWorkOrder;
@@ -199,9 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42C9F6E1A7214B2003BF9F3 /* Main.storyboard in Resources */,
-				D42C9F731A7214B2003BF9F3 /* LaunchScreen.xib in Resources */,
+				D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */,
+				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
 				D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */,
+				D42C9F911A721A1C003BF9F3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42C9F6B1A7214B2003BF9F3 /* ViewController.m in Sources */,
+				D42C9F8B1A721698003BF9F3 /* ViewController.m in Sources */,
 				D42C9F681A7214B2003BF9F3 /* AppDelegate.m in Sources */,
+				D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */,
 				D42C9F651A7214B2003BF9F3 /* main.m in Sources */,
+				D42C9F901A721A1C003BF9F3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +262,6 @@
 			targetProxy = D42C9F791A7214B2003BF9F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D42C9F6C1A7214B2003BF9F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D42C9F6D1A7214B2003BF9F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D42C9F711A7214B2003BF9F3 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D42C9F721A7214B2003BF9F3 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D42C9F801A7214B2003BF9F3 /* Debug */ = {

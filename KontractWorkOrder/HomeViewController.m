@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  KontractWorkOrder
 //
 //  Created by Riya on 1/23/15.
 //  Copyright (c) 2015 GMSIndia1. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,11 +34,11 @@
 }
 */
 
-- (IBAction)loginbtn:(id)sender {
+- (IBAction)btn:(id)sender {
+    self.workVCtrl=[[WorkViewController alloc]initWithNibName:@"WorkViewController" bundle:nil];
     
-                self.hmeVCrl=[[HomeViewController alloc]initWithNibName:@"HomeViewController" bundle:nil];
     
+    [self.navigationController pushViewController:_workVCtrl animated:YES];
     
-            [self.navigationController pushViewController:_hmeVCrl animated:YES];
 }
 @end

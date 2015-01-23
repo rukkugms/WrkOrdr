@@ -18,7 +18,7 @@
 		D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9F931A721A3B003BF9F3 /* WorkViewController.m */; };
 		D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */; };
 		D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */; };
-		D42C9F9B1A721E6A003BF9F3 /* appbar.close.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F9A1A721E6A003BF9F3 /* appbar.close.png */; };
+		D42C9F9D1A7220C8003BF9F3 /* appbar.close.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F9C1A7220C8003BF9F3 /* appbar.close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		D42C9F931A721A3B003BF9F3 /* WorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
 		D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkViewController.xib; sourceTree = "<group>"; };
 		D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		D42C9F9A1A721E6A003BF9F3 /* appbar.close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appbar.close.png; path = ../../Productkon/Newproject/appbar.close.png; sourceTree = "<group>"; };
+		D42C9F9C1A7220C8003BF9F3 /* appbar.close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appbar.close.png; path = ../../appbar.close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 		D42C9F991A721E3D003BF9F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D42C9F9A1A721E6A003BF9F3 /* appbar.close.png */,
+				D42C9F9C1A7220C8003BF9F3 /* appbar.close.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			files = (
 				D42C9F8C1A721698003BF9F3 /* ViewController.xib in Resources */,
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
-				D42C9F9B1A721E6A003BF9F3 /* appbar.close.png in Resources */,
+				D42C9F9D1A7220C8003BF9F3 /* appbar.close.png in Resources */,
 				D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */,
 				D42C9F911A721A1C003BF9F3 /* HomeViewController.xib in Resources */,
 			);

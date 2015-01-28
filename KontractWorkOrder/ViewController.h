@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HomeViewController.h"
+//#import "HomeViewController.h"
 #include <ifaddrs.h>
 #include <arpa/inet.h>
+#include "PlngTileViewController.h"
 
 @interface ViewController : UIViewController
 {
@@ -20,7 +21,9 @@
     NSString*devicenumber;
    
 }
-@property(strong,nonatomic)HomeViewController *hmeVCrl;
+//@property(strong,nonatomic)HomeViewController *hmeVCrl;
+@property(strong,nonatomic)PlngTileViewController *hmeVCrl;
+
 
 
 @property(strong,nonatomic)NSString*logindevice;

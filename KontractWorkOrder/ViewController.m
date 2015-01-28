@@ -393,7 +393,7 @@
             [defaults setObject:_soapResults forKey:@"UserNameId"];
             [defaults synchronize];
           
-            self.hmeVCrl=[[HomeViewController alloc]initWithNibName:@"HomeViewController" bundle:nil];
+            self.hmeVCrl=[[PlngTileViewController alloc]initWithNibName:@"PlngTileViewController" bundle:nil];
           
             _hmeVCrl.username=_usernametxtfld.text;
             

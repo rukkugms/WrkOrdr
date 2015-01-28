@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6437C7981A78A08D000187AC /* PlngTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C78E1A78A08D000187AC /* PlngTileViewController.m */; };
+		6437C7991A78A08D000187AC /* PlngTileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C78F1A78A08D000187AC /* PlngTileViewController.xib */; };
+		6437C79A1A78A08D000187AC /* PlanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7911A78A08D000187AC /* PlanningViewController.m */; };
+		6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7921A78A08D000187AC /* PlanningViewController.xib */; };
+		6437C79C1A78A08D000187AC /* customplancell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7931A78A08D000187AC /* customplancell.xib */; };
+		6437C79D1A78A08D000187AC /* workentrycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7941A78A08D000187AC /* workentrycell.xib */; };
+		6437C79E1A78A08D000187AC /* AddserviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7961A78A08D000187AC /* AddserviceViewController.m */; };
+		6437C79F1A78A08D000187AC /* AddserviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7971A78A08D000187AC /* AddserviceViewController.xib */; };
+		6437C7A31A78A164000187AC /* Rightscheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A21A78A164000187AC /* Rightscheck.m */; };
+		6437C7A61A78A17D000187AC /* planmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A51A78A17D000187AC /* planmodel.m */; };
+		6437C7A91A78A1B9000187AC /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A81A78A1B9000187AC /* Validation.m */; };
+		6437C7C61A78A6A7000187AC /* work-entry.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7C41A78A6A7000187AC /* work-entry.png */; };
+		6437C7C71A78A6A7000187AC /* planning-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7C51A78A6A7000187AC /* planning-s.png */; };
+		6437C7C91A78A6B4000187AC /* textbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7C81A78A6B4000187AC /* textbox.png */; };
+		6437C7CB1A78AA97000187AC /* appbar.delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7CA1A78AA97000187AC /* appbar.delete.png */; };
+		6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7CC1A78AA9E000187AC /* appbar.edit.png */; };
+		6437C7CF1A78AABA000187AC /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7CE1A78AABA000187AC /* carat.png */; };
+		6437C7D11A78AB30000187AC /* bgmetro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7D01A78AB30000187AC /* bgmetro1.png */; };
+		6437C7D51A78AC97000187AC /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7D31A78AC96000187AC /* ChartViewController.m */; };
+		6437C7D61A78AC97000187AC /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7D41A78AC96000187AC /* ChartViewController.xib */; };
 		64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C7D71D1A7223EA00FC602F /* 40x27logo.png */; };
 		64C7D7351A722D8900FC602F /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7231A722D8900FC602F /* AFHTTPClient.m */; };
 		64C7D7361A722D8900FC602F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7251A722D8900FC602F /* AFHTTPRequestOperation.m */; };
@@ -50,6 +70,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6437C78D1A78A08D000187AC /* PlngTileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlngTileViewController.h; sourceTree = "<group>"; };
+		6437C78E1A78A08D000187AC /* PlngTileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlngTileViewController.m; sourceTree = "<group>"; };
+		6437C78F1A78A08D000187AC /* PlngTileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlngTileViewController.xib; sourceTree = "<group>"; };
+		6437C7911A78A08D000187AC /* PlanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanningViewController.m; sourceTree = "<group>"; };
+		6437C7921A78A08D000187AC /* PlanningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanningViewController.xib; sourceTree = "<group>"; };
+		6437C7931A78A08D000187AC /* customplancell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customplancell.xib; sourceTree = "<group>"; };
+		6437C7941A78A08D000187AC /* workentrycell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = workentrycell.xib; sourceTree = "<group>"; };
+		6437C7951A78A08D000187AC /* AddserviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddserviceViewController.h; sourceTree = "<group>"; };
+		6437C7961A78A08D000187AC /* AddserviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddserviceViewController.m; sourceTree = "<group>"; };
+		6437C7971A78A08D000187AC /* AddserviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddserviceViewController.xib; sourceTree = "<group>"; };
+		6437C7A11A78A164000187AC /* Rightscheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rightscheck.h; sourceTree = "<group>"; };
+		6437C7A21A78A164000187AC /* Rightscheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rightscheck.m; sourceTree = "<group>"; };
+		6437C7A41A78A17D000187AC /* planmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planmodel.h; sourceTree = "<group>"; };
+		6437C7A51A78A17D000187AC /* planmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = planmodel.m; sourceTree = "<group>"; };
+		6437C7A71A78A1B9000187AC /* Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validation.h; sourceTree = "<group>"; };
+		6437C7A81A78A1B9000187AC /* Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validation.m; sourceTree = "<group>"; };
+		6437C7C31A78A3A9000187AC /* PlanningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanningViewController.h; sourceTree = "<group>"; };
+		6437C7C41A78A6A7000187AC /* work-entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-entry.png"; sourceTree = "<group>"; };
+		6437C7C51A78A6A7000187AC /* planning-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "planning-s.png"; sourceTree = "<group>"; };
+		6437C7C81A78A6B4000187AC /* textbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox.png; sourceTree = "<group>"; };
+		6437C7CA1A78AA97000187AC /* appbar.delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.delete.png; sourceTree = "<group>"; };
+		6437C7CC1A78AA9E000187AC /* appbar.edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.edit.png; sourceTree = "<group>"; };
+		6437C7CE1A78AABA000187AC /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		6437C7D01A78AB30000187AC /* bgmetro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgmetro1.png; sourceTree = "<group>"; };
+		6437C7D21A78AC96000187AC /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		6437C7D31A78AC96000187AC /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		6437C7D41A78AC96000187AC /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
 		64C7D71D1A7223EA00FC602F /* 40x27logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x27logo.png; sourceTree = "<group>"; };
 		64C7D7221A722D8900FC602F /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		64C7D7231A722D8900FC602F /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -121,6 +168,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6437C7A01A78A153000187AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6437C7A71A78A1B9000187AC /* Validation.h */,
+				6437C7A81A78A1B9000187AC /* Validation.m */,
+				6437C7A11A78A164000187AC /* Rightscheck.h */,
+				6437C7A21A78A164000187AC /* Rightscheck.m */,
+				6437C7A41A78A17D000187AC /* planmodel.h */,
+				6437C7A51A78A17D000187AC /* planmodel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		64C7D7211A722D8900FC602F /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,12 +231,24 @@
 		D42C9F611A7214B2003BF9F3 /* KontractWorkOrder */ = {
 			isa = PBXGroup;
 			children = (
+				6437C7A01A78A153000187AC /* Models */,
 				D42C9F991A721E3D003BF9F3 /* Images */,
 				D42C9F661A7214B2003BF9F3 /* AppDelegate.h */,
 				D42C9F671A7214B2003BF9F3 /* AppDelegate.m */,
 				64C7D75F1A72589C00FC602F /* ViewController.h */,
 				64C7D7601A72589C00FC602F /* ViewController.m */,
 				64C7D7611A72589C00FC602F /* ViewController.xib */,
+				6437C78D1A78A08D000187AC /* PlngTileViewController.h */,
+				6437C78E1A78A08D000187AC /* PlngTileViewController.m */,
+				6437C78F1A78A08D000187AC /* PlngTileViewController.xib */,
+				6437C7C31A78A3A9000187AC /* PlanningViewController.h */,
+				6437C7911A78A08D000187AC /* PlanningViewController.m */,
+				6437C7921A78A08D000187AC /* PlanningViewController.xib */,
+				6437C7931A78A08D000187AC /* customplancell.xib */,
+				6437C7941A78A08D000187AC /* workentrycell.xib */,
+				6437C7951A78A08D000187AC /* AddserviceViewController.h */,
+				6437C7961A78A08D000187AC /* AddserviceViewController.m */,
+				6437C7971A78A08D000187AC /* AddserviceViewController.xib */,
 				64C7D7621A72589C00FC602F /* HomeViewController.h */,
 				64C7D7631A72589C00FC602F /* HomeViewController.m */,
 				64C7D7641A72589C00FC602F /* HomeViewController.xib */,
@@ -187,6 +259,9 @@
 				D42C9FA21A722A46003BF9F3 /* AddworkViewController.h */,
 				D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */,
 				D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */,
+				6437C7D21A78AC96000187AC /* ChartViewController.h */,
+				6437C7D31A78AC96000187AC /* ChartViewController.m */,
+				6437C7D41A78AC96000187AC /* ChartViewController.xib */,
 				D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */,
 				D42C9F621A7214B2003BF9F3 /* Supporting Files */,
 			);
@@ -222,11 +297,18 @@
 		D42C9F991A721E3D003BF9F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6437C7D01A78AB30000187AC /* bgmetro1.png */,
+				6437C7CA1A78AA97000187AC /* appbar.delete.png */,
+				6437C7C41A78A6A7000187AC /* work-entry.png */,
+				6437C7CC1A78AA9E000187AC /* appbar.edit.png */,
+				6437C7C51A78A6A7000187AC /* planning-s.png */,
+				6437C7C81A78A6B4000187AC /* textbox.png */,
 				D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */,
 				D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */,
 				64C7D73E1A72451A00FC602F /* clarity-shutdown-icon.png */,
 				D42C9FA71A722C90003BF9F3 /* addblack.png */,
 				D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */,
+				6437C7CE1A78AABA000187AC /* carat.png */,
 				64C7D71D1A7223EA00FC602F /* 40x27logo.png */,
 			);
 			name = Images;
@@ -312,17 +394,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6437C7D61A78AC97000187AC /* ChartViewController.xib in Resources */,
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
 				D42C9FAE1A7264EB003BF9F3 /* cb_mono_off.png in Resources */,
 				64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */,
 				64C7D7661A72589C00FC602F /* ViewController.xib in Resources */,
+				6437C7C91A78A6B4000187AC /* textbox.png in Resources */,
+				6437C7991A78A08D000187AC /* PlngTileViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
 				D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */,
+				6437C79D1A78A08D000187AC /* workentrycell.xib in Resources */,
+				6437C79F1A78A08D000187AC /* AddserviceViewController.xib in Resources */,
+				6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */,
+				6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */,
+				6437C7CF1A78AABA000187AC /* carat.png in Resources */,
 				64C7D73F1A72451A00FC602F /* clarity-shutdown-icon.png in Resources */,
 				D42C9FAA1A725FF3003BF9F3 /* WorkCell.xib in Resources */,
+				6437C7C71A78A6A7000187AC /* planning-s.png in Resources */,
+				6437C7D11A78AB30000187AC /* bgmetro1.png in Resources */,
 				D42C9FA81A722C90003BF9F3 /* addblack.png in Resources */,
+				6437C7CB1A78AA97000187AC /* appbar.delete.png in Resources */,
 				D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */,
 				D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */,
+				6437C7C61A78A6A7000187AC /* work-entry.png in Resources */,
+				6437C79C1A78A08D000187AC /* customplancell.xib in Resources */,
 				64C7D7681A72589C00FC602F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,15 +437,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C7D7651A72589C00FC602F /* ViewController.m in Sources */,
+				6437C79A1A78A08D000187AC /* PlanningViewController.m in Sources */,
+				6437C7981A78A08D000187AC /* PlngTileViewController.m in Sources */,
 				64C7D73B1A722D8900FC602F /* AFURLConnectionOperation.m in Sources */,
 				64C7D73D1A722D8900FC602F /* UIImageView+AFNetworking.m in Sources */,
 				D42C9F681A7214B2003BF9F3 /* AppDelegate.m in Sources */,
+				6437C7A61A78A17D000187AC /* planmodel.m in Sources */,
 				64C7D73A1A722D8900FC602F /* AFPropertyListRequestOperation.m in Sources */,
 				D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */,
+				6437C7A91A78A1B9000187AC /* Validation.m in Sources */,
+				6437C79E1A78A08D000187AC /* AddserviceViewController.m in Sources */,
+				6437C7D51A78AC97000187AC /* ChartViewController.m in Sources */,
 				D42C9F651A7214B2003BF9F3 /* main.m in Sources */,
 				64C7D73C1A722D8900FC602F /* AFXMLRequestOperation.m in Sources */,
 				64C7D7671A72589C00FC602F /* HomeViewController.m in Sources */,
 				64C7D7391A722D8900FC602F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				6437C7A31A78A164000187AC /* Rightscheck.m in Sources */,
 				64C7D7361A722D8900FC602F /* AFHTTPRequestOperation.m in Sources */,
 				64C7D7371A722D8900FC602F /* AFImageRequestOperation.m in Sources */,
 				64C7D7351A722D8900FC602F /* AFHTTPClient.m in Sources */,

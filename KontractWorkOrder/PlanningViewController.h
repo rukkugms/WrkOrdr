@@ -31,8 +31,9 @@
     NSString *bidstring;
     NSString*Existplanstrg;
     
-    
-    
+    NSString *userid;
+    NSInteger moduleid;
+    NSInteger checkws;
     
     
 }
@@ -41,6 +42,7 @@
 /* newcomment*/
 
 @property(strong,nonatomic)NSString *username;
+
 @property(readwrite)NSInteger plntype;
 @property(readwrite)NSInteger fromestmn;
 @property(strong,nonatomic)NSString *Estmnplan;

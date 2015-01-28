@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-       return 2;
+       return 6;
     
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -50,10 +50,12 @@
     
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        [[NSBundle mainBundle]loadNibNamed:@"WorkCell" owner:self options:nil];
+        cell=_workcell;
     }
     
         cell.textLabel.font=[UIFont fontWithName:@"Helvetica Neue" size:12];
-    cell.textLabel.text=@"WO0001";
+   // cell.textLabel.text=@"WO0001";
            
     return cell;
 }

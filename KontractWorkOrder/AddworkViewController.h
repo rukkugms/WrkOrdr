@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface AddworkViewController : UIViewController
 - (IBAction)clsebtn:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextView *destxtview;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
+
 
 @end

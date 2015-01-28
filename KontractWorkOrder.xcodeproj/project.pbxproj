@@ -33,6 +33,10 @@
 		D42C9FA51A722A46003BF9F3 /* AddworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */; };
 		D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */; };
 		D42C9FA81A722C90003BF9F3 /* addblack.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA71A722C90003BF9F3 /* addblack.png */; };
+		D42C9FAA1A725FF3003BF9F3 /* WorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */; };
+		D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */; };
+		D42C9FAE1A7264EB003BF9F3 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */; };
+		D42C9FB01A726615003BF9F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9FAF1A726615003BF9F3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddworkViewController.m; sourceTree = "<group>"; };
 		D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddworkViewController.xib; sourceTree = "<group>"; };
 		D42C9FA71A722C90003BF9F3 /* addblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addblack.png; sourceTree = "<group>"; };
+		D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkCell.xib; sourceTree = "<group>"; };
+		D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
+		D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
+		D42C9FAF1A726615003BF9F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42C9FB01A726615003BF9F3 /* QuartzCore.framework in Frameworks */,
 				D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +150,7 @@
 		D42C9F561A7214B2003BF9F3 = {
 			isa = PBXGroup;
 			children = (
+				D42C9FAF1A726615003BF9F3 /* QuartzCore.framework */,
 				64C7D7211A722D8900FC602F /* AFNetworking */,
 				D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */,
 				D42C9F611A7214B2003BF9F3 /* KontractWorkOrder */,
@@ -173,6 +183,7 @@
 				D42C9F921A721A3B003BF9F3 /* WorkViewController.h */,
 				D42C9F931A721A3B003BF9F3 /* WorkViewController.m */,
 				D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */,
+				D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */,
 				D42C9FA21A722A46003BF9F3 /* AddworkViewController.h */,
 				D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */,
 				D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */,
@@ -211,6 +222,8 @@
 		D42C9F991A721E3D003BF9F3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */,
+				D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */,
 				64C7D73E1A72451A00FC602F /* clarity-shutdown-icon.png */,
 				D42C9FA71A722C90003BF9F3 /* addblack.png */,
 				D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */,
@@ -300,13 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
+				D42C9FAE1A7264EB003BF9F3 /* cb_mono_off.png in Resources */,
 				64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */,
 				64C7D7661A72589C00FC602F /* ViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
 				D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */,
 				64C7D73F1A72451A00FC602F /* clarity-shutdown-icon.png in Resources */,
+				D42C9FAA1A725FF3003BF9F3 /* WorkCell.xib in Resources */,
 				D42C9FA81A722C90003BF9F3 /* addblack.png in Resources */,
 				D42C9F701A7214B2003BF9F3 /* Images.xcassets in Resources */,
+				D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */,
 				64C7D7681A72589C00FC602F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

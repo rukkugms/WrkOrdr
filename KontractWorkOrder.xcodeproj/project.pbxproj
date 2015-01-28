@@ -22,8 +22,12 @@
 		6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7CC1A78AA9E000187AC /* appbar.edit.png */; };
 		6437C7CF1A78AABA000187AC /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7CE1A78AABA000187AC /* carat.png */; };
 		6437C7D11A78AB30000187AC /* bgmetro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7D01A78AB30000187AC /* bgmetro1.png */; };
-		6437C7D51A78AC97000187AC /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7D31A78AC96000187AC /* ChartViewController.m */; };
-		6437C7D61A78AC97000187AC /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7D41A78AC96000187AC /* ChartViewController.xib */; };
+		6437C7E01A78C1F8000187AC /* AddworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7D81A78C1F8000187AC /* AddworkViewController.m */; };
+		6437C7E11A78C1F8000187AC /* AddworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7D91A78C1F8000187AC /* AddworkViewController.xib */; };
+		6437C7E21A78C1F8000187AC /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7DB1A78C1F8000187AC /* ChartViewController.m */; };
+		6437C7E31A78C1F8000187AC /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7DC1A78C1F8000187AC /* ChartViewController.xib */; };
+		6437C7E41A78C1F8000187AC /* AddplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7DE1A78C1F8000187AC /* AddplanViewController.m */; };
+		6437C7E51A78C1F8000187AC /* AddplanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7DF1A78C1F8000187AC /* AddplanViewController.xib */; };
 		64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C7D71D1A7223EA00FC602F /* 40x27logo.png */; };
 		64C7D7351A722D8900FC602F /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7231A722D8900FC602F /* AFHTTPClient.m */; };
 		64C7D7361A722D8900FC602F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7D7251A722D8900FC602F /* AFHTTPRequestOperation.m */; };
@@ -47,8 +51,6 @@
 		D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */; };
 		D42C9F981A721CAB003BF9F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */; };
 		D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */; };
-		D42C9FA51A722A46003BF9F3 /* AddworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */; };
-		D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */; };
 		D42C9FA81A722C90003BF9F3 /* addblack.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA71A722C90003BF9F3 /* addblack.png */; };
 		D42C9FAA1A725FF3003BF9F3 /* WorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */; };
 		D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */; };
@@ -87,9 +89,15 @@
 		6437C7CC1A78AA9E000187AC /* appbar.edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.edit.png; sourceTree = "<group>"; };
 		6437C7CE1A78AABA000187AC /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
 		6437C7D01A78AB30000187AC /* bgmetro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgmetro1.png; sourceTree = "<group>"; };
-		6437C7D21A78AC96000187AC /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
-		6437C7D31A78AC96000187AC /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
-		6437C7D41A78AC96000187AC /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		6437C7D71A78C1F8000187AC /* AddworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddworkViewController.h; sourceTree = "<group>"; };
+		6437C7D81A78C1F8000187AC /* AddworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddworkViewController.m; sourceTree = "<group>"; };
+		6437C7D91A78C1F8000187AC /* AddworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddworkViewController.xib; sourceTree = "<group>"; };
+		6437C7DA1A78C1F8000187AC /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		6437C7DB1A78C1F8000187AC /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		6437C7DC1A78C1F8000187AC /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		6437C7DD1A78C1F8000187AC /* AddplanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddplanViewController.h; sourceTree = "<group>"; };
+		6437C7DE1A78C1F8000187AC /* AddplanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddplanViewController.m; sourceTree = "<group>"; };
+		6437C7DF1A78C1F8000187AC /* AddplanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddplanViewController.xib; sourceTree = "<group>"; };
 		64C7D71D1A7223EA00FC602F /* 40x27logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x27logo.png; sourceTree = "<group>"; };
 		64C7D7221A722D8900FC602F /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		64C7D7231A722D8900FC602F /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -131,9 +139,6 @@
 		D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkViewController.xib; sourceTree = "<group>"; };
 		D42C9F971A721CAB003BF9F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D42C9F9E1A7221E0003BF9F3 /* appbar.close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.close.png; sourceTree = "<group>"; };
-		D42C9FA21A722A46003BF9F3 /* AddworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddworkViewController.h; sourceTree = "<group>"; };
-		D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddworkViewController.m; sourceTree = "<group>"; };
-		D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddworkViewController.xib; sourceTree = "<group>"; };
 		D42C9FA71A722C90003BF9F3 /* addblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addblack.png; sourceTree = "<group>"; };
 		D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkCell.xib; sourceTree = "<group>"; };
 		D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
@@ -245,12 +250,15 @@
 				D42C9F931A721A3B003BF9F3 /* WorkViewController.m */,
 				D42C9F941A721A3B003BF9F3 /* WorkViewController.xib */,
 				D42C9FA91A725FF2003BF9F3 /* WorkCell.xib */,
-				D42C9FA21A722A46003BF9F3 /* AddworkViewController.h */,
-				D42C9FA31A722A46003BF9F3 /* AddworkViewController.m */,
-				D42C9FA41A722A46003BF9F3 /* AddworkViewController.xib */,
-				6437C7D21A78AC96000187AC /* ChartViewController.h */,
-				6437C7D31A78AC96000187AC /* ChartViewController.m */,
-				6437C7D41A78AC96000187AC /* ChartViewController.xib */,
+				6437C7D71A78C1F8000187AC /* AddworkViewController.h */,
+				6437C7D81A78C1F8000187AC /* AddworkViewController.m */,
+				6437C7D91A78C1F8000187AC /* AddworkViewController.xib */,
+				6437C7DA1A78C1F8000187AC /* ChartViewController.h */,
+				6437C7DB1A78C1F8000187AC /* ChartViewController.m */,
+				6437C7DC1A78C1F8000187AC /* ChartViewController.xib */,
+				6437C7DD1A78C1F8000187AC /* AddplanViewController.h */,
+				6437C7DE1A78C1F8000187AC /* AddplanViewController.m */,
+				6437C7DF1A78C1F8000187AC /* AddplanViewController.xib */,
 				D42C9F6F1A7214B2003BF9F3 /* Images.xcassets */,
 				D42C9F621A7214B2003BF9F3 /* Supporting Files */,
 			);
@@ -383,7 +391,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6437C7D61A78AC97000187AC /* ChartViewController.xib in Resources */,
 				D42C9F961A721A3B003BF9F3 /* WorkViewController.xib in Resources */,
 				D42C9FAE1A7264EB003BF9F3 /* cb_mono_off.png in Resources */,
 				64C7D71E1A7223EA00FC602F /* 40x27logo.png in Resources */,
@@ -391,7 +398,7 @@
 				6437C7C91A78A6B4000187AC /* textbox.png in Resources */,
 				6437C7991A78A08D000187AC /* PlngTileViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
-				D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */,
+				6437C7E31A78C1F8000187AC /* ChartViewController.xib in Resources */,
 				6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */,
 				6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */,
 				6437C7CF1A78AABA000187AC /* carat.png in Resources */,
@@ -405,7 +412,9 @@
 				D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */,
 				6437C7C61A78A6A7000187AC /* work-entry.png in Resources */,
 				6437C79C1A78A08D000187AC /* customplancell.xib in Resources */,
+				6437C7E51A78C1F8000187AC /* AddplanViewController.xib in Resources */,
 				64C7D7681A72589C00FC602F /* HomeViewController.xib in Resources */,
+				6437C7E11A78C1F8000187AC /* AddworkViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,17 +442,18 @@
 				64C7D73A1A722D8900FC602F /* AFPropertyListRequestOperation.m in Sources */,
 				D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */,
 				6437C7A91A78A1B9000187AC /* Validation.m in Sources */,
-				6437C7D51A78AC97000187AC /* ChartViewController.m in Sources */,
+				6437C7E21A78C1F8000187AC /* ChartViewController.m in Sources */,
 				D42C9F651A7214B2003BF9F3 /* main.m in Sources */,
 				64C7D73C1A722D8900FC602F /* AFXMLRequestOperation.m in Sources */,
 				64C7D7671A72589C00FC602F /* HomeViewController.m in Sources */,
+				6437C7E01A78C1F8000187AC /* AddworkViewController.m in Sources */,
 				64C7D7391A722D8900FC602F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				6437C7A31A78A164000187AC /* Rightscheck.m in Sources */,
 				64C7D7361A722D8900FC602F /* AFHTTPRequestOperation.m in Sources */,
 				64C7D7371A722D8900FC602F /* AFImageRequestOperation.m in Sources */,
+				6437C7E41A78C1F8000187AC /* AddplanViewController.m in Sources */,
 				64C7D7351A722D8900FC602F /* AFHTTPClient.m in Sources */,
 				64C7D7381A722D8900FC602F /* AFJSONRequestOperation.m in Sources */,
-				D42C9FA51A722A46003BF9F3 /* AddworkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

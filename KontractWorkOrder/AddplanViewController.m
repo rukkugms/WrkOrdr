@@ -1,18 +1,18 @@
 //
-//  ChartViewController.m
+//  AddplanViewController.m
 //  KontractWorkOrder
 //
-//  Created by GMSIndia 2 on 28/01/15.
+//  Created by Riya on 1/28/15.
 //  Copyright (c) 2015 GMSIndia1. All rights reserved.
 //
 
-#import "ChartViewController.h"
+#import "AddplanViewController.h"
 
-@interface ChartViewController ()
+@interface AddplanViewController ()
 
 @end
 
-@implementation ChartViewController
+@implementation AddplanViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,13 +34,7 @@
 }
 */
 
-- (IBAction)addplanbtn:(id)sender {
-    self.addplanVCtrl=[[AddplanViewController alloc]initWithNibName:@"AddplanViewController" bundle:nil];
-    
-    
-    //  _AddWCtrl.modalPresentationStyle = UIModalPresentationPageSheet;
-    [self presentViewController:_addplanVCtrl
-                       animated:YES completion:NULL];
-    
+- (IBAction)clsebtn:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

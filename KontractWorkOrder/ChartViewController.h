@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddplanViewController.h"
 
 @interface ChartViewController : UIViewController
+
+- (IBAction)addplanbtn:(id)sender;
+@property(strong,nonatomic)AddplanViewController *addplanVCtrl;
 
 @end

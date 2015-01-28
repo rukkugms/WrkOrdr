@@ -17,4 +17,6 @@
 - (IBAction)clsebtn:(id)sender;
 - (IBAction)Addbtn:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UITableViewCell *workcell;
+
 @end

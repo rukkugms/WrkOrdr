@@ -747,7 +747,7 @@
     _popovertableview.separatorStyle=UITableViewCellSeparatorStyleSingleLine;
     [popoverview addSubview:_popovertableview];
     popovercontent.view=popoverview;
-    popovercontent.contentSizeForViewInPopover=CGSizeMake(210, 120);
+    popovercontent.preferredContentSize=CGSizeMake(210, 120);
     self.popovercontroller=[[UIPopoverController alloc]initWithContentViewController:popovercontent];
     self.popovercontroller.popoverContentSize=CGSizeMake(210.0f, 120.0f);
     self.popovercontroller=_popovercontroller;
@@ -769,7 +769,7 @@
     _popovertableview.separatorStyle=UITableViewCellSeparatorStyleSingleLine;
     [popoverview addSubview:_popovertableview];
     popovercontent.view=popoverview;
-    popovercontent.contentSizeForViewInPopover=CGSizeMake(210, 200);
+    popovercontent.preferredContentSize=CGSizeMake(210, 200);
     self.popovercontroller=[[UIPopoverController alloc]initWithContentViewController:popovercontent];
     self.popovercontroller.popoverContentSize=CGSizeMake(210.0f, 200.0f);
     self.popovercontroller=_popovercontroller;
@@ -3052,7 +3052,7 @@
         //_popovertableview.separatorColor=[UIColor blackColor];
         [popoverView addSubview:_popovertableview];
         popoverContent.view = popoverView;
-        popoverContent.contentSizeForViewInPopover = CGSizeMake(132, 43);
+        popoverContent.preferredContentSize = CGSizeMake(132, 43);
         
         button = (UIButton *)sender;
         UITableViewCell *cell = (UITableViewCell *)[[button superview] superview];

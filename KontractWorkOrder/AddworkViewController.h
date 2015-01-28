@@ -14,5 +14,19 @@
 @property (strong, nonatomic) IBOutlet UITextView *destxtview;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
 
+@property (strong, nonatomic) IBOutlet UITextField *workordrtxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *prioritytxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *planttxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *subunittxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *equmnttxtfld;
+
+@property (strong, nonatomic) IBOutlet UITextField *tagtxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *requsttxtfld;
+@property (strong, nonatomic) IBOutlet UITextField *date1;
+@property (strong, nonatomic) IBOutlet UITextField *approvetxtfld;
+
+@property (strong, nonatomic) IBOutlet UITextField *date2;
+- (IBAction)updatebtn:(id)sender;
+- (IBAction)cancelbtn:(id)sender;
 
 @end

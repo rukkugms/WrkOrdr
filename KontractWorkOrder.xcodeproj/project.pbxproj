@@ -12,9 +12,6 @@
 		6437C79A1A78A08D000187AC /* PlanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7911A78A08D000187AC /* PlanningViewController.m */; };
 		6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7921A78A08D000187AC /* PlanningViewController.xib */; };
 		6437C79C1A78A08D000187AC /* customplancell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7931A78A08D000187AC /* customplancell.xib */; };
-		6437C79D1A78A08D000187AC /* workentrycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7941A78A08D000187AC /* workentrycell.xib */; };
-		6437C79E1A78A08D000187AC /* AddserviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7961A78A08D000187AC /* AddserviceViewController.m */; };
-		6437C79F1A78A08D000187AC /* AddserviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6437C7971A78A08D000187AC /* AddserviceViewController.xib */; };
 		6437C7A31A78A164000187AC /* Rightscheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A21A78A164000187AC /* Rightscheck.m */; };
 		6437C7A61A78A17D000187AC /* planmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A51A78A17D000187AC /* planmodel.m */; };
 		6437C7A91A78A1B9000187AC /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437C7A81A78A1B9000187AC /* Validation.m */; };
@@ -76,10 +73,6 @@
 		6437C7911A78A08D000187AC /* PlanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanningViewController.m; sourceTree = "<group>"; };
 		6437C7921A78A08D000187AC /* PlanningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlanningViewController.xib; sourceTree = "<group>"; };
 		6437C7931A78A08D000187AC /* customplancell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customplancell.xib; sourceTree = "<group>"; };
-		6437C7941A78A08D000187AC /* workentrycell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = workentrycell.xib; sourceTree = "<group>"; };
-		6437C7951A78A08D000187AC /* AddserviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddserviceViewController.h; sourceTree = "<group>"; };
-		6437C7961A78A08D000187AC /* AddserviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddserviceViewController.m; sourceTree = "<group>"; };
-		6437C7971A78A08D000187AC /* AddserviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddserviceViewController.xib; sourceTree = "<group>"; };
 		6437C7A11A78A164000187AC /* Rightscheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rightscheck.h; sourceTree = "<group>"; };
 		6437C7A21A78A164000187AC /* Rightscheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rightscheck.m; sourceTree = "<group>"; };
 		6437C7A41A78A17D000187AC /* planmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planmodel.h; sourceTree = "<group>"; };
@@ -245,10 +238,6 @@
 				6437C7911A78A08D000187AC /* PlanningViewController.m */,
 				6437C7921A78A08D000187AC /* PlanningViewController.xib */,
 				6437C7931A78A08D000187AC /* customplancell.xib */,
-				6437C7941A78A08D000187AC /* workentrycell.xib */,
-				6437C7951A78A08D000187AC /* AddserviceViewController.h */,
-				6437C7961A78A08D000187AC /* AddserviceViewController.m */,
-				6437C7971A78A08D000187AC /* AddserviceViewController.xib */,
 				64C7D7621A72589C00FC602F /* HomeViewController.h */,
 				64C7D7631A72589C00FC602F /* HomeViewController.m */,
 				64C7D7641A72589C00FC602F /* HomeViewController.xib */,
@@ -403,8 +392,6 @@
 				6437C7991A78A08D000187AC /* PlngTileViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
 				D42C9FA61A722A46003BF9F3 /* AddworkViewController.xib in Resources */,
-				6437C79D1A78A08D000187AC /* workentrycell.xib in Resources */,
-				6437C79F1A78A08D000187AC /* AddserviceViewController.xib in Resources */,
 				6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */,
 				6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */,
 				6437C7CF1A78AABA000187AC /* carat.png in Resources */,
@@ -446,7 +433,6 @@
 				64C7D73A1A722D8900FC602F /* AFPropertyListRequestOperation.m in Sources */,
 				D42C9F951A721A3B003BF9F3 /* WorkViewController.m in Sources */,
 				6437C7A91A78A1B9000187AC /* Validation.m in Sources */,
-				6437C79E1A78A08D000187AC /* AddserviceViewController.m in Sources */,
 				6437C7D51A78AC97000187AC /* ChartViewController.m in Sources */,
 				D42C9F651A7214B2003BF9F3 /* main.m in Sources */,
 				64C7D73C1A722D8900FC602F /* AFXMLRequestOperation.m in Sources */,

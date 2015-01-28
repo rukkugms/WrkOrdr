@@ -41,51 +41,23 @@
   
     _plangtable.layer.borderWidth=2.0f;
     _plangtable.layer.borderColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1.0f].CGColor;
-    if (_plntype==1) {
+   
         _tabletitleview.hidden=NO;
     
-         _disclosurearry=[[NSMutableArray alloc]initWithObjects:@"Add Services",nil];
+         _disclosurearry=[[NSMutableArray alloc]initWithObjects:@"Work Entry",nil];
         _addbtn.hidden=NO;
         _deletebtn.hidden=NO;
         _plnnavitem.title=@"Planning";
        // _editbtn.hidden=NO;
-    }
-    else
-    {
-        _tabletitleview2.hidden=NO;
-      
-
-        _disclosurearry=[[NSMutableArray alloc]initWithObjects:@"Services",nil];
-        _addbtn.hidden=YES;
-        _deletebtn.hidden=YES;
-        _plnnavitem.title=@"Work Entry";
-       // _editbtn.hidden=YES;
-    }
    
+    
     [self WorkTypeSelect];
 }
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
    
-    if (_fromestmn==1) {
-        _searchstring=_Estmnplan;
-        _searchbar=[[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 220, 44)];
-        _searchbar.delegate=(id)self;
-        _searchbar.tintColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1.0f];
-        self.plangtable.tableHeaderView=_searchbar;
-        UISearchDisplayController *searchctrlr=[[UISearchDisplayController alloc]initWithSearchBar:_searchbar contentsController:self];
-        searchctrlr.searchResultsDelegate=(id)self;
-        searchctrlr.searchResultsDataSource=(id)self;
-        searchctrlr.delegate=(id)self;
-        searchctrlr.searchBar.text=_Estmnplan;
-
-        [self SearchPlan];
-        
-        
-    }
-    else{
-        _searchbar=[[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 220, 44)];
+           _searchbar=[[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 220, 44)];
         _searchbar.delegate=(id)self;
         _searchbar.tintColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1.0f];
         self.plangtable.tableHeaderView=_searchbar;
@@ -97,7 +69,7 @@
 
 
          [self SelectAllPlans];
-    }
+    
     
     
 }
@@ -167,17 +139,10 @@
     
     if(tableView==_plangtable)
     {
-        if (_plntype==1) {
+       
             [[NSBundle mainBundle]loadNibNamed:@"customplancell" owner:self options:nil];
             cell=_planingcell;
-        }
-        else{
-            
         
-        [[NSBundle mainBundle]loadNibNamed:@"workentrycell" owner:self options:nil];
-        cell=_wrkentrycell;
-            
-        }
     }
     }
     if(tableView==_popovertableview)
@@ -216,7 +181,7 @@
          
          
      {
-          if (_plntype==1) {
+        
          planmodel*planmdl=(planmodel *)[_planlistarray objectAtIndex:indexPath.row];
          _organizationname=(UILabel*)[cell viewWithTag:1];
          cell.textLabel.font=[UIFont fontWithName:@"Helvetica Neue" size:12];
@@ -247,121 +212,86 @@
               _masterplanlabel=(UILabel*)[cell viewWithTag:12];
               _masterplanlabel.text=planmdl.masterplan;
 
-          }
-          else{
-              
-              planmodel*planmdl=(planmodel *)[_planlistarray objectAtIndex:indexPath.row];
-              _worgnztnlbl=(UILabel*)[cell viewWithTag:1];
-              _worgnztnlbl.text=planmdl.customername;
-//              UITapGestureRecognizer *tapGesture =
-//              [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap:)];
-//              [_worgnztnlbl addGestureRecognizer:tapGesture];
-
-              _wplanlbl=(UILabel*)[cell viewWithTag:3];
-              _wplanlbl.text=planmdl.planid;
-              _wmanhrslbl=(UILabel*)[cell viewWithTag:5];
-              _wmanhrslbl.text=[NSString stringWithFormat:@"%.2f",[planmdl.manhrs doubleValue]];
-              _weqhrslbl=(UILabel*)[cell viewWithTag:6];
-              _weqhrslbl.text=[NSString stringWithFormat:@"%.2f",[planmdl.equphrs doubleValue]];
-              _mathrslabel=(UILabel*)[cell viewWithTag:7];
-              _mathrslabel.text=[NSString stringWithFormat:@"%d",[planmdl.mathrs integerValue]];
-              
-          }
          
-         if (_plntype==1) {
-             _editbtn.hidden=NO;
-             _seperatorview.hidden=NO;
-         }
-         else
-         {
-             _editbtn.hidden=YES;
-             _seperatorview.hidden=YES;
-         }
-             }
-    
+     }
     return cell;
     
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    if (tableView==_popovertableview) {
-//        
-//        //Coursemdl*coursemdl2=(Coursemdl *)[_requirementArray objectAtIndex:textFieldIndexPath.row];
-//        
-//        switch (poptype) {
-//                
-//            case 1:
-//                if (newpoptype==2) {
-//                     [_planselectionbtn setTitle:[_planslectionarray objectAtIndex:indexPath.row]forState:UIControlStateNormal];
-//                    NSString *checkvalue=[_leadbiddict objectForKey:[_planslectionarray objectAtIndex:indexPath.row]];
-//                    NSLog(@"%@",checkvalue);
-//                           NSLog(@"%@",_planselectionbtn.titleLabel.text);
-//                    if ([checkvalue isEqualToString:@"true"]) {
-//                        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"" message:@"This lead is already changed as a customer" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-//                        [alert show];
-//                    }
-//                    else
-//                    {
-//                        
-//                    }
-//                    
-//                }
-//                else if (newpoptype==3){
-//                     [_typebtnlbl setTitle:[_typelistarray objectAtIndex:indexPath.row]forState:UIControlStateNormal];
-//                    
-//                 
-//                    
-//                }
-//                else if (newpoptype==4){
-//                    [_cmplexitybtnlbl setTitle:[_cmpxtyofwrk objectAtIndex:indexPath.row]forState:UIControlStateNormal];
-//                    
-//                    
-//                }
-//                
-//        
-//
-//               // [_customerselectionBtn setTitle:[_customerlistarray objectAtIndex:indexPath.row]forState:UIControlStateNormal];
-//               
-//                
-//
-//                
-//                
-//                break;
-//            
-//            case 2:
-//                if (_plntype==1) {
-//                    
-//                
-//                if (indexPath.row==0) {
-//                 
-//                        self.servVctrl=[[AddserviceViewController alloc]initWithNibName:@"AddserviceViewController" bundle:nil];
-//                
-//                    planmodel*planmdl=(planmodel *)[_planlistarray objectAtIndex:btnindex];
-//                    _servVctrl.planID=planmdl.planid;
-//                    NSLog(@"%@",planmdl.planid);
-//                    _servVctrl.modalPresentationStyle=UIModalPresentationPageSheet;
-//                    _servVctrl.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
-//                    
-//                    [self dismissViewControllerAnimated:YES completion:^{    [self presentViewController:_servVctrl
-//                                                                                                animated:YES completion:NULL];
-//                    }];
-//                    _searchbar.text=@"";
-//                    [self SelectAllPlans];
-//                }
-//
-//                                   }
-//            }
-//    
-//    }
-//        [self.popovercontroller dismissPopoverAnimated:YES];
-//
-//    }
-//    
+    if (tableView==_popovertableview) {
+        
+        
+        
+        switch (poptype) {
+                
+            case 1:
+                if (newpoptype==2) {
+                     [_planselectionbtn setTitle:[_planslectionarray objectAtIndex:indexPath.row]forState:UIControlStateNormal];
+                    NSString *checkvalue=[_leadbiddict objectForKey:[_planslectionarray objectAtIndex:indexPath.row]];
+                    NSLog(@"%@",checkvalue);
+                           NSLog(@"%@",_planselectionbtn.titleLabel.text);
+                    if ([checkvalue isEqualToString:@"true"]) {
+                        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"" message:@"This lead is already changed as a customer" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+                        [alert show];
+                    }
+                    else
+                    {
+                        
+                    }
+                    
+                }
+                else if (newpoptype==3){
+                     [_typebtnlbl setTitle:[_typelistarray objectAtIndex:indexPath.row]forState:UIControlStateNormal];
+                    
+                 
+                    
+                }
+                else if (newpoptype==4){
+                    [_cmplexitybtnlbl setTitle:[_cmpxtyofwrk objectAtIndex:indexPath.row]forState:UIControlStateNormal];
+                    
+                    
+                }
+                
+        
+
+               
+                
+
+                
+                
+                break;
+            
+            case 2:
+                
+                    
+            if (indexPath.row==0) {
+                 
+                        self.tilctrl=[[PlngTileViewController alloc]initWithNibName:@"PlngTileViewController" bundle:nil];
+                
+                _tilctrl.modalPresentationStyle=UIModalPresentationFormSheet;
+                    [self dismissViewControllerAnimated:YES completion:^{    [self presentViewController:_tilctrl
+                                                                                                animated:YES completion:NULL];
+                    }];
+                    _searchbar.text=@"";
+                    [self SelectAllPlans];
+                
+                                   }
+                break;
+
+             
+    }
+    
+        [self.popovercontroller dismissPopoverAnimated:YES];
+
+    
+    
+    }
     
     
 }
-    
+
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -438,10 +368,13 @@
 
 
 #pragma mark-Button Actions
-- (IBAction)clseVCtrlbtn:(id)sender {
+- (IBAction)logout:(id)sender {
     _updatebtn.enabled=YES;
      _addplanview.hidden=YES;
-    [self dismissViewControllerAnimated:YES completion:nil];
+    UIAlertView*alert=[[UIAlertView alloc]initWithTitle:@"" message:@"Are you sure you want to logout" delegate:self cancelButtonTitle:@"Yes" otherButtonTitles:@"No", nil];
+    [alert show];
+    [alert resignFirstResponder];
+
 }
 
 - (IBAction)addplan:(id)sender {
@@ -581,7 +514,7 @@
 -(IBAction)selectdisclosure:(id)sender
 {
     poptype=2;
-    if (_plntype==1) {
+   
         
     
     UIViewController* popoverContent = [[UIViewController alloc]init];
@@ -609,7 +542,7 @@
         self.popovercontroller.popoverContentSize=CGSizeMake(135.0f, 120.0f);
         self.popovercontroller=_popovercontroller;
     [self.popovercontroller presentPopoverFromRect:_disclosurebtn.frame inView:cell permittedArrowDirections:UIPopoverArrowDirectionLeft animated:YES];
-    }
+    
        //[_popovertableview reloadData];
 }
 
@@ -1805,6 +1738,65 @@
     }
     
 }
+-(void)Logoutselect{
+    recordResults = FALSE;
+    NSDate *date = [NSDate date];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSTimeZone *zone = [NSTimeZone localTimeZone];
+    [formatter setTimeZone:zone];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    // NSLog(@"Date %@",[formatter stringFromDate:date]);
+    NSString*curntdate=[formatter stringFromDate:date];
+    
+    NSString *soapMessage;
+    
+    
+    soapMessage = [NSString stringWithFormat:
+                   
+                   @"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+                   "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n"
+                   
+                   
+                   "<soap:Body>\n"
+                   
+                   "<Logoutselect xmlns=\"http://ios.kontract360.com/\">\n"
+                   "<UserName>%@</UserName>\n"
+                   "<LogOutTime>%@</LogOutTime>\n"
+                   "</Logoutselect>\n"
+                   "</soap:Body>\n"
+                   "</soap:Envelope>\n",_username,curntdate];
+    NSLog(@"soapmsg%@",soapMessage);
+    
+    
+    //   NSURL *url = [NSURL URLWithString:@"http://192.168.0.175/service.asmx"];
+    //    NSURL *url = [NSURL URLWithString:@"http://192.168.0.175/service.asmx"];
+    NSURL *url = [NSURL URLWithString:@"http://192.168.0.175/service.asmx"];
+    
+    NSMutableURLRequest *theRequest = [NSMutableURLRequest requestWithURL:url];
+    
+    NSString *msgLength = [NSString stringWithFormat:@"%d", [soapMessage length]];
+    
+    [theRequest addValue: @"text/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    
+    [theRequest addValue: @"http://ios.kontract360.com/Logoutselect" forHTTPHeaderField:@"Soapaction"];
+    
+    [theRequest addValue: msgLength forHTTPHeaderField:@"Content-Length"];
+    [theRequest setHTTPMethod:@"POST"];
+    [theRequest setHTTPBody: [soapMessage dataUsingEncoding:NSUTF8StringEncoding]];
+    
+    
+    NSURLConnection *theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
+    
+    if( theConnection )
+    {
+        _webData = [NSMutableData data];
+    }
+    else
+    {
+        ////NSLog(@"theConnection is NULL");
+    }
+    
+}
 
 
 #pragma mark - Connection
@@ -1851,6 +1843,27 @@
 #pragma mark-xml parser
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *) namespaceURI qualifiedName:(NSString *)qName
    attributes: (NSDictionary *)attributeDict{
+    if([elementName isEqualToString:@"LogoutselectResponse"])
+    {
+        
+        
+        if(!_soapResults)
+        {
+            _soapResults = [[NSMutableString alloc] init];
+        }
+        recordResults = TRUE;
+    }
+    if([elementName isEqualToString:@"message"])
+    {
+        
+        
+        if(!_soapResults)
+        {
+            _soapResults = [[NSMutableString alloc] init];
+        }
+        recordResults = TRUE;
+    }
+
     if([elementName isEqualToString:@"SelectAllLeadsResult"])
     {
         _planslectionarray=[[NSMutableArray alloc]init];
@@ -2229,6 +2242,16 @@
 }
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
 {
+    
+    if([elementName isEqualToString:@"message"]){
+        
+        recordResults = FALSE;
+        [self.navigationController popToRootViewControllerAnimated:YES];
+        
+        
+        _soapResults=nil;
+    }
+
     if([elementName isEqualToString:@"SelectAllLeadsResult"])
     {
         
@@ -2577,6 +2600,22 @@
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     
+    if ([alertView.message isEqualToString:@"Are you sure you want to logout"]) {
+        
+        
+        if (buttonIndex==[alertView cancelButtonIndex]){
+            [alertView resignFirstResponder];
+            [self disablesAutomaticKeyboardDismissal];
+            [self Logoutselect];
+            
+            
+        }
+        
+        else{
+            
+            
+        }
+    }
     if ([alertView.message isEqualToString:_result]) {
         _updatebtn.enabled=YES;
         _planselectionbtn.enabled=NO;

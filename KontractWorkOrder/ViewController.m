@@ -393,11 +393,11 @@
             [defaults setObject:_soapResults forKey:@"UserNameId"];
             [defaults synchronize];
           
-            self.hmeVCrl=[[PlngTileViewController alloc]initWithNibName:@"PlngTileViewController" bundle:nil];
+            self.planctrl=[[PlanningViewController alloc]initWithNibName:@"PlanningViewController" bundle:nil];
           
-            _hmeVCrl.username=_usernametxtfld.text;
+            _planctrl.username=_usernametxtfld.text;
             
-            [self.navigationController pushViewController:_hmeVCrl animated:YES];
+            [self.navigationController pushViewController:_planctrl animated:YES];
             
         }
         _soapResults = nil;

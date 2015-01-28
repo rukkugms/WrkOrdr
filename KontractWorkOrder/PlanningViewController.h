@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "AddserviceViewController.h"
+#import "PlngTileViewController.h"
 #import "planmodel.h"
 #import "Validation.h"
 #import "Rightscheck.h"
@@ -37,9 +37,10 @@
     
 }
 
+@property(strong,nonatomic)PlngTileViewController *tilctrl;
 /* newcomment*/
 
-
+@property(strong,nonatomic)NSString *username;
 @property(readwrite)NSInteger plntype;
 @property(readwrite)NSInteger fromestmn;
 @property(strong,nonatomic)NSString *Estmnplan;
@@ -47,7 +48,6 @@
 @property(strong,nonatomic)NSString *result;
 @property(strong,nonatomic)planmodel *plnmdl;
 @property(strong,nonatomic)Validation *val;
-@property(strong,nonatomic)AddserviceViewController *servVctrl;
 
 
 /* xmlparser*/
@@ -88,7 +88,7 @@
 
 
 /*IBAction*/
-- (IBAction)clseVCtrlbtn:(id)sender;
+- (IBAction)logout:(id)sender;
 - (IBAction)addplan:(id)sender;
 -(IBAction)closeaddview:(id)sender;
 -(IBAction)checkleadaction:(id)sender;

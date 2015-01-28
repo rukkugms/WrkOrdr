@@ -10,7 +10,7 @@
 //#import "HomeViewController.h"
 #include <ifaddrs.h>
 #include <arpa/inet.h>
-#include "PlngTileViewController.h"
+#include "PlanningViewController.h"
 
 @interface ViewController : UIViewController
 {
@@ -21,8 +21,8 @@
     NSString*devicenumber;
    
 }
-//@property(strong,nonatomic)HomeViewController *hmeVCrl;
-@property(strong,nonatomic)PlngTileViewController *hmeVCrl;
+
+@property(strong,nonatomic)PlanningViewController *planctrl;
 
 
 

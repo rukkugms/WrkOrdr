@@ -45,47 +45,53 @@
     self.view.backgroundColor=[UIColor colorWithRed:234.0/255.0f green:226/255.0f blue:226/255.0f alpha:1.0f];
     UITapGestureRecognizer *doubleTap1 = [[UITapGestureRecognizer alloc]
                                           initWithTarget:self
-                                          action:@selector(plangpage)];
+                                          action:@selector(workentrylist)];
     doubleTap1.numberOfTapsRequired=1;
     doubleTap1.delegate=(id)self;
     [self.planngview addGestureRecognizer:doubleTap1];
     UITapGestureRecognizer *doubleTap2 = [[UITapGestureRecognizer alloc]
                                           initWithTarget:self
-                                          action:@selector(workentrypage)];
+                                          action:@selector(ganttchart)];
     doubleTap2.numberOfTapsRequired=1;
     doubleTap2.delegate=(id)self;
     [self.workentryview addGestureRecognizer:doubleTap2];
 
 }
--(void)plangpage{
+-(void)workentrylist{
     _plnindictr.hidden=NO;
     _planngview.userInteractionEnabled=NO;
     
     [_plnindictr startAnimating];
-    plntype=1;
-    _ModuleID=43;
-    [self UserLogmaininsert];
-    [self UserRightsforparticularmoduleselect];
+    self.workctrlr=[[WorkViewController alloc]initWithNibName:@"WorkViewController" bundle:nil];
+    
+    
+    [self presentViewController:_workctrlr
+                       animated:YES completion:NULL];
+    _plnindictr.hidden=YES;
+    _planngview.userInteractionEnabled=YES;
+    
+    [_plnindictr stopAnimating];
+//    plntype=1;
+//    _ModuleID=43;
+//    [self UserLogmaininsert];
+//    [self UserRightsforparticularmoduleselect];
     
     
 }
--(void)workentrypage{
-     [self UserLogmaininsert];
+-(void)ganttchart{
+    // [self UserLogmaininsert];
     _wrkindctr.hidden=NO;
     _workentryview.userInteractionEnabled=NO;
     
     [_wrkindctr startAnimating];
     plntype=2;
     
-        self.workctrlr=[[WorkViewController alloc]initWithNibName:@"WorkViewController" bundle:nil];
-   
+    self.chartctrl=[[ChartViewController alloc]initWithNibName:@"ChartViewController" bundle:nil];
     
-//    _PlangVCtrl.modalPresentationStyle=UIModalPresentationCustom;
-//    _PlangVCtrl.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
-//    _PlangVCtrl.userrightsarray=_userrightsarray;
-//    _PlangVCtrl.plntype=plntype;
-    [self presentViewController:_workctrlr
+    
+    [self presentViewController:_chartctrl
                        animated:YES completion:NULL];
+
     _wrkindctr.hidden=YES;
     _workentryview.userInteractionEnabled=YES;
     
@@ -101,35 +107,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(IBAction)logout:(id)sender
+-(IBAction)close:(id)sender
 {
-    _result=@"";
-    _ModuleID=0;
-    UIAlertView*alert=[[UIAlertView alloc]initWithTitle:@"" message:@"Are you sure you want to logout" delegate:self cancelButtonTitle:@"Yes" otherButtonTitles:@"No", nil];
-    [alert show];
-    [alert resignFirstResponder];
-   
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
-#pragma mark-Alertview
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    
-    if ([alertView.message isEqualToString:@"Are you sure you want to logout"]) {
-        
-        
-        if (buttonIndex==[alertView cancelButtonIndex]){
-            [alertView resignFirstResponder];
-            [self disablesAutomaticKeyboardDismissal];
-            [self Logoutselect];
-            
-            
-        }
-        
-        else{
-            
-            
-        }
-    }}
 
 -(void)UserRightsforparticularmoduleselect{
     recordResults = FALSE;
@@ -394,17 +375,17 @@
                 
                 _planngview.userInteractionEnabled=YES;
                 _workentryview.userInteractionEnabled=YES;
-                
-               // if (!self.PlangVCtrl) {
-                    self.PlangVCtrl=[[PlanningViewController alloc]initWithNibName:@"PlanningViewController" bundle:nil];
-               // }
-                
-                _PlangVCtrl.modalPresentationStyle=UIModalPresentationCustom;
-                _PlangVCtrl.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
-                _PlangVCtrl.userrightsarray=_userrightsarray;
-                _PlangVCtrl.plntype=plntype;
-                [self presentViewController:_PlangVCtrl
-                                   animated:YES completion:NULL];
+//                
+//               // if (!self.PlangVCtrl) {
+//                    self.PlangVCtrl=[[PlanningViewController alloc]initWithNibName:@"PlanningViewController" bundle:nil];
+//               // }
+//                
+//                _PlangVCtrl.modalPresentationStyle=UIModalPresentationCustom;
+//                _PlangVCtrl.modalTransitionStyle=UIModalTransitionStyleCoverVertical;
+//                _PlangVCtrl.userrightsarray=_userrightsarray;
+//                _PlangVCtrl.plntype=plntype;
+//                [self presentViewController:_PlangVCtrl
+//                                   animated:YES completion:NULL];
             }
             else
             {

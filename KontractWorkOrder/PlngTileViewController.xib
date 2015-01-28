@@ -26,7 +26,7 @@
                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                     </textAttributes>
                     <items>
-                        <navigationItem title="Planning" id="NLx-tl-1Mr">
+                        <navigationItem title="Work Entry" id="NLx-tl-1Mr">
                             <barButtonItem key="rightBarButtonItem" style="plain" id="HuE-5d-NNp">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Qzk-qn-G1Y">
                                     <rect key="frame" x="470" y="-16" width="50" height="50"/>

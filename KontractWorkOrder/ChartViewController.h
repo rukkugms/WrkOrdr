@@ -18,6 +18,7 @@
 - (IBAction)clsebtn:(id)sender;
 @property (strong, nonatomic) IBOutlet UITableViewCell *chartcell;
 
+@property (strong, nonatomic) IBOutlet UIView *titleview;
 
 
 @end

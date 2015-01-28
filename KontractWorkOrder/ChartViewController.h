@@ -14,4 +14,10 @@
 - (IBAction)addplanbtn:(id)sender;
 @property(strong,nonatomic)AddplanViewController *addplanVCtrl;
 
+@property (strong, nonatomic) IBOutlet UITableView *charttable;
+- (IBAction)clsebtn:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableViewCell *chartcell;
+
+
+
 @end

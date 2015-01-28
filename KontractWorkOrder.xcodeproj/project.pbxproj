@@ -56,6 +56,7 @@
 		D42C9FAC1A7264E3003BF9F3 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */; };
 		D42C9FAE1A7264EB003BF9F3 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */; };
 		D42C9FB01A726615003BF9F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42C9FAF1A726615003BF9F3 /* QuartzCore.framework */; };
+		D4BDDE391A78DF990051B62B /* ChartcellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BDDE381A78DF990051B62B /* ChartcellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +145,7 @@
 		D42C9FAB1A7264E3003BF9F3 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
 		D42C9FAD1A7264EB003BF9F3 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
 		D42C9FAF1A726615003BF9F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4BDDE381A78DF990051B62B /* ChartcellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartcellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				6437C7DA1A78C1F8000187AC /* ChartViewController.h */,
 				6437C7DB1A78C1F8000187AC /* ChartViewController.m */,
 				6437C7DC1A78C1F8000187AC /* ChartViewController.xib */,
+				D4BDDE381A78DF990051B62B /* ChartcellView.xib */,
 				6437C7DD1A78C1F8000187AC /* AddplanViewController.h */,
 				6437C7DE1A78C1F8000187AC /* AddplanViewController.m */,
 				6437C7DF1A78C1F8000187AC /* AddplanViewController.xib */,
@@ -399,6 +402,7 @@
 				6437C7991A78A08D000187AC /* PlngTileViewController.xib in Resources */,
 				D42C9F9F1A7221E0003BF9F3 /* appbar.close.png in Resources */,
 				6437C7E31A78C1F8000187AC /* ChartViewController.xib in Resources */,
+				D4BDDE391A78DF990051B62B /* ChartcellView.xib in Resources */,
 				6437C7CD1A78AA9E000187AC /* appbar.edit.png in Resources */,
 				6437C79B1A78A08D000187AC /* PlanningViewController.xib in Resources */,
 				6437C7CF1A78AABA000187AC /* carat.png in Resources */,

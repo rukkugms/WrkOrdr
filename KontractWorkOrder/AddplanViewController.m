@@ -25,6 +25,10 @@
     _Workperformtextview.layer.borderColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1].CGColor;
     _scroll.frame=CGRectMake(0, 44, 1024, 724);
     _scroll.contentSize=CGSizeMake(1024, 800);
+    _scaffoldtable.layer.borderWidth=2;
+    _scaffoldtable.layer.borderColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1].CGColor;
+    _scafoldtitle.backgroundColor=[UIColor colorWithRed:234.0/255.0f green:244.0/255.0f blue:249.0/255.0f alpha:1];
+
      
     // Do any additional setup after loading the view from its nib.
 }
@@ -98,6 +102,7 @@
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellidentifier];
         if (tableView==_scaffoldtable) {
             [[NSBundle mainBundle]loadNibNamed:@"Scaffoldcell" owner:self options:nil];
+            cell=_scaffoldcell;
         }
     }
    

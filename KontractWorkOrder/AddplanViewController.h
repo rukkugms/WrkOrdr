@@ -18,6 +18,7 @@
 @property(strong,nonatomic)IBOutlet UIPopoverController *popoverctrlr;
 @property(strong,nonatomic)IBOutlet UITableView *PopOvertableview;
 @property(strong,nonatomic)IBOutlet UITableViewCell *scaffoldcell;
+@property (strong, nonatomic) IBOutlet UIView *scafoldtitle;
 @property(strong,nonatomic)IBOutlet UITableView *scaffoldtable;
 @property (strong, nonatomic) IBOutlet UITextView *detailstextview;
 @property (strong, nonatomic) IBOutlet UITextView *Workperformtextview;
